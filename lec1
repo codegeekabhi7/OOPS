@@ -1,0 +1,42 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class x{
+    public:
+    string name;
+    string color;
+    int tyre;
+    int seats;
+    x(){
+        
+    }
+    x(string n,string c,int t,int s){
+        name = n;
+        color = c;
+        tyre = t;
+        seats = s;
+    }
+    
+};
+
+int main() {
+    
+    x p;
+    x s("audi","red",4,2);
+    p.name = "bmw";
+    p.color = "black";
+    p.seats = 2;
+    p.tyre = 4;
+    cout<<p.name<<endl;
+    cout<<p.seats<<endl;
+    cout<<p.color<<endl;
+    cout<<p.tyre<<endl;
+    cout<<s.name<<endl;
+    cout<<s.seats<<endl;
+    cout<<s.color<<endl;
+    cout<<s.tyre<<endl;
+    
+
+    return 0;
+}
